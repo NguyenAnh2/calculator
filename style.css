@@ -1,0 +1,50 @@
+.html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid black;
+    padding: 48px 12px 12px 12px;
+    border-radius: 8px;
+}
+.keys{
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px;
+    gap: 12px;
+    margin-top: 18px;
+}
+.operator{
+    --height: 32px;
+    background-color: aqua;
+    outline: none;
+    border: none;
+    height: var(--height);
+    cursor: pointer;
+}
+.button {
+    background-color:chartreuse;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.clear {
+    outline: none;
+    border: none;
+    background-color:cornflowerblue;
+    width: 50px;
+    height: 32px;
+    cursor: pointer;
+}
+#result {
+    padding: 7px 0px;
+    width: 178px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+}
